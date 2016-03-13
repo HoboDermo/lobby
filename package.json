@@ -1,5 +1,5 @@
 {
-  "name": "lobby",
+  "name": "lobby-controller",
   "version": "1.0.0",
   "description": "A simple lobby system to create and manage lobbies of users",
   "main": "lib/lobby-controller.js",

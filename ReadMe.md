@@ -1,4 +1,4 @@
-# lobby
+# lobby-controller
 
 [![Build Status](https://travis-ci.org/HoboDermo/lobby.svg?branch=master)](https://travis-ci.org/HoboDermo/lobby)
 
@@ -16,7 +16,7 @@ $ npm install --save lobby
 
 ```js
 
-var lobbyController = require('lobby')();
+var lobbyController = require('lobby-controller')();
 
 lobbyController.addLobbyType({type: 'lobby type', minUsers: 2, maxUsers: 4});
 
