@@ -1,0 +1,33 @@
+{
+  "name": "lobby",
+  "version": "1.0.0",
+  "description": "A simple lobby system to create and manage lobbies of users",
+  "main": "lib/lobby-controller.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoboDermo/lobby.git"
+  },
+  "engines" : {
+    "node" : ">=0.10"
+  },
+  "keywords": [
+    "lobby"
+  ],
+  "author": "HoboDermo <hobodermo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HoboDermo/lobby/issues"
+  },
+  "homepage": "https://github.com/HoboDermo/lobby#readme",
+  "dependencies": {
+    "fn-runner": "1.*",
+    "update-tracker": "1.*",
+    "node-uuid": "1.*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
