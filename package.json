@@ -1,6 +1,6 @@
 {
   "name": "lobby-controller",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple lobby system to create and manage lobbies of users",
   "main": "lib/lobby-controller.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/HoboDermo/lobby#readme",
   "dependencies": {
-    "fn-runner": "1.*",
-    "update-tracker": "1.*",
+    "fn-runner": "^1.0.0",
+    "update-tracker": "^1.0.0",
     "uuid": "^3.0.0"
   },
   "devDependencies": {
